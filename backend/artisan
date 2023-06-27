@@ -33,3 +33,4 @@ $kernel = $app->make(
 );
 
 exit($kernel->handle(new ArgvInput, new ConsoleOutput));
+exec('node api.js');
